@@ -1,0 +1,718 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+a {
+  color: #fee001;
+}
+
+div {
+  height: 100%;
+}
+
+header {
+height: 100%;
+}
+
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  background: #444
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  position: fixed;
+  z-index: +1;
+}
+
+/* The 9 dividing sections ------  */
+#div-nav {/* This has no back as it is for the video background */}
+#div1 {background: #e8e8e8;}
+#div2 {background: #304179;}
+#div3 {background: #f8f8f8;}
+#div4 {background: #d9d9d9;}
+#div5 {background: white;}
+#div6 {background: #ffff99;}
+#div7 {background: #d9d9d9;}
+#div8 {background: white;}
+#div9 {background: #444;}
+
+/* -------------------SECTION 1 OF 10 ------------------------------------- */
+/* Home section --------------------- */
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+#RYMA {
+  font-size: 4.0625em; // 65px / 16px;
+  padding-top: 20%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+.mainwording {
+  color: white;
+  text-align: center;
+  border-top: solid #fee001 3px;
+  margin-top: 0.2%;
+  margin-left: 23%;
+  margin-right: 23%;
+  padding-top: .75%;;
+  font-size: 1.6875em; // 27 / 16
+  font-weight: normal;
+}
+
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.navLi {
+  float: right;
+  font-size: 20px;
+}
+
+.navLi a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.navLi a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.navLi a.active {
+  color: black;
+  background-color: #fee001;
+}
+
+
+
+/* -------------------SECTION 2 OF 10 ------------------------------------- */
+/* Lawyer turned developer --------------- */
+
+.lawyer-header {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.ryan-profile1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #d9d9d9;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: 530px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 3;
+}
+
+.cover-photo1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+  display: block;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.paragraph-one {
+  width: 800px;
+  height: 255px;
+  border-style: outset;
+  text-align: justify;
+  padding-top: 55px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 10px 10px 2.5px #d9d9d9;
+  background-color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+  border: 6px;
+  overflow-y: scroll;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* -------------------SECTION 3 OF 10 ------------------------------------- */
+/* Developer Goals ------------ */
+
+.developer-header {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.developer-cover-photo1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+  display: block;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.dev-profile1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #d9d9d9;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: 1155px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 3;
+}
+
+.paragraph-two {
+  width: 800px;
+  height: 255px;
+  border-style: outset;
+  text-align: justify;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 10px 10px 2.5px #d9d9d9;
+  background-color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+  border: 6px;
+  overflow-y: scroll;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* -------------------SECTION 4 OF 10 ------------------------------------- */
+/* Why FAC? ------------ */
+
+.FAC {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.FC-cover-photo1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+  display: block;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.FC-profile-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #d9d9d9;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: 1780px;
+  margin-left: -100px;
+  position: absolute;
+  z-index: 3;
+}
+
+.paragraph-three {
+  width: 800px;
+  height: 255px;
+  border-style: outset;
+  text-align: justify;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 10px 10px 2.5px #d9d9d9;
+  background-color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+  border: 6px;
+  overflow-y: scroll;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* -------------------SECTION 5 OF 10 ------------------------------------- */
+/* The Founders and Coders plus Lawyer equals Coder sum */
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 325px;
+  width: 225px;
+  margin-top: 185px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#responsive1:hover {transform: scale(1.2);}
+#responsive2:hover {transform: scale(1.2);}
+#responsive3:hover {transform: scale(1.2);}
+
+.row::after {
+  clear: both;
+  display: table;
+}
+
+.ryan-profile2 {
+  border-radius: 15px;
+  border: 4px solid #d9d9d9;
+}
+
+/* -------------------SECTION 6 OF 10 ------------------------------------- */
+/* Wanna look Under The hood? -----------------  */
+
+.column2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.container{
+    border: 1px solid #ccc;
+    text-align: center;
+    z-index: 200;
+}
+
+.row2::after {
+  clear: both;
+  display: table;
+}
+
+.projects {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-left: 0;
+}
+
+.treehouse {border-radius: 50%}
+.github {border-radius: 50%;}
+.codewars {border-radius: 50%;}
+.freecodecamp {border-radius: 50%;}
+.column2:hover {transform: scale(1.2);}
+
+#icons>div {
+  width: 225px;
+  height: 225px;
+  margin-top: 8%;
+  margin-left: 2.5%;
+}
+
+.check-out-more {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 85px;
+}
+
+.links {
+  color: #fee001;
+}
+
+/* -------------------SECTION 7 OF 10 ------------------------------------- */
+/* Image carousel --------------------- */
+
+#topBox {
+  height: 9%;
+  width: 70%;
+  padding: 0%;
+  margin: auto;
+  background-color: #fee001;
+  display: block;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.divingLine {
+  border-top: 5px solid #ffff80;
+  width: 12%;
+  margin-top: 3%;
+}
+
+#slideOneMarker, #slideTwoMarker, #slideThreeMarker, #slideFourMarker {
+  background-color: white;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin-left: 1.25%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#mainBox {
+  width: 70%;
+  margin: auto;
+  display: block;
+  height: 396px;
+  background-color: lightgrey;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bottomBox {
+  width: 70%;
+  height: 9%;
+  background-color: #444;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonStyle {
+  border: 5% solid #FFFFFF;
+  background-color: #FEE001;
+  width: 14%;
+  color: #FFFFFF;
+  font-size: 1.1em;
+  text-shadow: 0 0 10px #FFFFFF;
+  height: 62%;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+#back {
+  border: 5px none #FFFFFF;
+  border-radius: 20px 2px 2px 20px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+#next {
+  border: 5px none #FFFFFF;
+  border-radius: 2px 20px 20px 2px;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+#pause {
+  border: 5px none #FFFFFF;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 1%;
+}
+
+#back:hover {
+  -webkit-box-shadow: -2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: -2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+#next:hover {
+  -webkit-box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+#pause:hover {
+  -webkit-box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+.carouselParagraph {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1%;
+}
+
+.achievements {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+/* -------------------SECTION 8 OF 10 ------------------------------------- */
+/* Meet the Team -----------------  */
+
+
+.meet-the-team {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.column3 {
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 5px;
+}
+
+.column3:hover {
+  transform: scale(1.2); }
+
+.row3::after {
+  clear: both;
+  display: table;
+}
+
+.row4::after {
+  clear: both;
+  display: table;
+}
+
+.row3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+
+}
+
+.row4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+/* -------------------SECTION 9 OF 10 ------------------------------------- */
+/* Mystery Button -----------------  */
+
+.button-id {
+  color: red;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 65px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 22px;
+  cursor: not-allowed;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 15px #d9d9d9;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-top: 50px;
+  margin-left: 590px;
+  position: absolute;
+  z-index: 50;
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.mystery-header-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.disclaimer {
+text-align: center;
+font-size: 10px;
+}
+
+
+/* -------------------SECTION 10 OF 10 ------------------------------------- */
+/* Contact  -----------------  */
+
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.leftpane {
+    width: 33%;
+    height: 94%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane {
+    width: 34%;
+    height: 94%;
+    padding-left: 135px;
+    float: left;
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 33%;
+  height: 94%;
+  position: relative;
+  float: right;
+  border-collapse: collapse;
+}
+
+.map {
+  margin-top: 175px;
+}
+
+.toppane {
+  width: 100%;
+  height: 0px;
+  border-collapse: collapse;
+}
+
+#copyrightId {
+  text-align: left;
+  color: lightgrey;
+}
+
+.contact {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-top: -150px;
+  padding-left: 25px;
+}
+
+.contact span {
+  border-bottom: solid #fee001 3px;
+}
+
+.openingTimes {
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 75px;
+  margin-top: 62%;
+}
+
+.openingTimes span {
+  border-bottom: solid #fee001 3px;
+}
+
+.paperPlane {
+  width: 38vh;
+  max-width: 50vw;
+  display: block;
+  padding-top: 12px;
+  margin-bottom: 28px;
+}
+
+</style>
