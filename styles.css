@@ -161,7 +161,7 @@ footer {
   display: block;
   top: 50%;
   left: 50%;
-  margin-top: 40%;
+  margin-top: 520px;
   margin-left: -100px;
   position: absolute;
   z-index: 3;
@@ -233,7 +233,7 @@ footer {
   display: block;
   top: 50%;
   left: 50%;
-  margin-top: 89%;
+  margin-top: 1145px;
   margin-left: -100px;
   position: absolute;
   z-index: 3;
@@ -296,7 +296,7 @@ footer {
   display: block;
   top: 50%;
   left: 50%;
-  margin-top: 138%;
+  margin-top: 1770px;
   margin-left: -100px;
   position: absolute;
   z-index: 3;
