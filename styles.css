@@ -665,6 +665,7 @@ font-size: 10px;
   position: relative;
   float: right;
   border-collapse: collapse;
+
 }
 
 .map {
@@ -714,5 +715,4 @@ font-size: 10px;
   padding-top: 12px;
   margin-bottom: 28px;
 }
-
 </style>
