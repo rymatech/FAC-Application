@@ -6,6 +6,6 @@
 
 <p>To visit the site please copy and paste "rymatech.github.io" into your URL.</p>
 
-<p><b>For best experience, please use in a Chrome browser.</b></p>
+<p>For best experience, please use in a Chrome browser.</p>
 
 <p>Thanks for visiting and I hope you enjoy the site :)</p>
