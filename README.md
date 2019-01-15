@@ -1,8 +1,6 @@
 <h1>rymatech.github.io</h1>
 
-<p>Last edited on 31 December 2018</p>
-
-<p>This is my one page website using, Github Pages, in application for Founders & Coders 2019 spring course cohort.</p>
+<p>This is my one page website using, Github Pages, in application for Founders & Coders 2019 spring course cohort. </b> It was submitted on 31 December 2018</b></p>
 
 <p>This website does NOT use: a Github theme, frameworks like Bootstrap or libraries like jQuery. I also chose NOT to use Jekyll.</p>
 
