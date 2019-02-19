@@ -1,4 +1,4 @@
-#rymatech.github.io
+# rymatech.github.io
 
 This is my one page website using, Github Pages, in application for [Founders & Coders](https://www.foundersandcoders.com/) 2019 spring course cohort. It was submitted on 31 December 2018
 
