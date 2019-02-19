@@ -4,7 +4,7 @@
 
 <p>This website does NOT use: a Github theme, frameworks like Bootstrap or libraries like jQuery. I also chose NOT to use Jekyll.</p>
 
-<p>To visit the site please copy and paste "rymatech.github.io" into your URL or click [here](rymatech.github.io).</p>
+<p>To visit the site please copy and paste "rymatech.github.io" into your URL or click [here](https://rymatech.github.io/).</p>
 
 <p>For best experience, please use in a Chrome browser.</p>
 
