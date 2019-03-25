@@ -4,7 +4,7 @@ This is my one page website using, Github Pages, in application for [Founders & 
 
 This website does NOT use: a Github theme, frameworks like Bootstrap or libraries like jQuery. I also chose NOT to use Jekyll.
 
-To visit the site please copy and paste "rymatech.github.io" into your URL or click [here](https://rymatech.github.io/).
+To visit the site please copy and paste "rymatech.github.io" into your URL or click [here](https://rymatech.github.io/FAC-Application/).
 
 For best experience, please use in a Chrome browser.
 
